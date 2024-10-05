@@ -5,13 +5,13 @@ int main() {
     printf("Have a good day!");
     /* printf("Have a good day!"); */
 
-    int myNum = 15;
-    float myFloatNum = 5.99;
-    char myLetter = 'D';
+    int   myNum      =  15;
+    float myFloatNum =  5.99;
+    char  myLetter   =  'D';
 
-    printf("%d\n",myNum);
+    printf("%d\n", myNum);
     printf("%f\n", myFloatNum);
-    printf("%c\n",myLetter);
+    printf("%c\n", myLetter);
     printf("\n");
 
     int x = 5, y = 6, z = 50;
@@ -25,7 +25,8 @@ The general rules for naming variables are:
 *    Names cannot contain whitespaces or special characters like !, #, %, etc.
 *    Reserved words (such as int) cannot be used as names 
 */
-
+    char myGrade = 'A';
+    printf("%c", myGrade);
 
     return 0;
 }
