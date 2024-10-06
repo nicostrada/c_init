@@ -25,8 +25,21 @@ The general rules for naming variables are:
 *    Names cannot contain whitespaces or special characters like !, #, %, etc.
 *    Reserved words (such as int) cannot be used as names 
 */
+
+/* Char variable*/
     char myGrade = 'A';
     printf("%c", myGrade);
+    char a=65, b=66, c=67;
+    printf("%c", a);
+    printf("%c", b);
+    printf("%c", c);
+
+    /* String variable*/
+    char myText[] = "Hello";
+    printf("%s", myText);
+
+    /* Numeric variables*/
+    
 
     return 0;
 }
